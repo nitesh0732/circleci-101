@@ -11,7 +11,7 @@ jobs:
     build:
      docker:
       - image: circleci/ruby:2.4.1
-    steps:
+     steps:
       - checkout
       - run: echo "Second hello"
 workflows:
